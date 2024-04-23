@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 114.0, 91.0, 1176.0, 898.0 ],
+		"rect" : [ 34.0, 77.0, 1452.0, 969.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,13 +40,13 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"args" : [ 2, 3, 4 ],
+					"args" : [ 8, 15, 16 ],
 					"bgmode" : 0,
 					"border" : 0,
 					"clickthrough" : 0,
 					"enablehscroll" : 0,
 					"enablevscroll" : 0,
-					"id" : "obj-9",
+					"id" : "obj-22",
 					"lockeddragscroll" : 0,
 					"lockedsize" : 0,
 					"maxclass" : "bpatcher",
@@ -54,9 +54,153 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 586.0, 93.0, 281.0, 525.0 ],
+					"patching_rect" : [ 1666.0, 108.0, 281.0, 525.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 288.0, 66.0, 283.0, 526.0 ],
+					"presentation_rect" : [ 1608.0, 17.0, 225.0, 515.0 ],
+					"varname" : "fileplayer[7]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ 7, 13, 14 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-21",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "fileplayer.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 1439.0, 108.0, 281.0, 525.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1381.0, 17.0, 225.0, 515.0 ],
+					"varname" : "fileplayer[6]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ 6, 11, 12 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-20",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "fileplayer.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 1212.0, 108.0, 281.0, 525.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 1154.0, 17.0, 225.0, 515.0 ],
+					"varname" : "fileplayer[5]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ 5, 9, 10 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-19",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "fileplayer.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 985.0, 108.0, 281.0, 525.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 927.0, 17.0, 225.0, 515.0 ],
+					"varname" : "fileplayer[4]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ 4, 7, 8 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-18",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "fileplayer.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 758.0, 108.0, 281.0, 525.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 700.0, 17.0, 225.0, 515.0 ],
+					"varname" : "fileplayer[3]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ 3, 5, 6 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-17",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "fileplayer.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 531.0, 108.0, 281.0, 525.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 473.0, 17.0, 225.0, 515.0 ],
+					"varname" : "fileplayer[2]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"args" : [ 2, 3, 4 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-16",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "fileplayer.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 304.0, 108.0, 281.0, 525.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 246.0, 17.0, 225.0, 515.0 ],
 					"varname" : "fileplayer[1]",
 					"viewvisibility" : 1
 				}
@@ -151,6 +295,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 72.0, 83.0, 22.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 73.0, 587.0, 83.0, 22.0 ],
 					"text" : "Save Settings"
 				}
 
@@ -173,7 +319,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 289.0, 93.0, 281.0, 525.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 273.0, 51.0, 283.0, 526.0 ],
+					"presentation_rect" : [ 19.0, 17.0, 225.0, 515.0 ],
 					"varname" : "fileplayer",
 					"viewvisibility" : 1
 				}
@@ -507,8 +653,14 @@
 			}
  ],
 		"parameters" : 		{
+			"obj-16::obj-6" : [ "live.gain~[1]", "live.gain~", 0 ],
+			"obj-17::obj-6" : [ "live.gain~[2]", "live.gain~", 0 ],
+			"obj-18::obj-6" : [ "live.gain~[3]", "live.gain~", 0 ],
+			"obj-19::obj-6" : [ "live.gain~[4]", "live.gain~", 0 ],
+			"obj-20::obj-6" : [ "live.gain~[5]", "live.gain~", 0 ],
+			"obj-21::obj-6" : [ "live.gain~[6]", "live.gain~", 0 ],
+			"obj-22::obj-6" : [ "live.gain~[7]", "live.gain~", 0 ],
 			"obj-4::obj-6" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-9::obj-6" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -519,12 +671,36 @@
 			}
 ,
 			"parameter_overrides" : 			{
-				"obj-4::obj-6" : 				{
-					"parameter_modmode" : 0
+				"obj-16::obj-6" : 				{
+					"parameter_longname" : "live.gain~[1]"
 				}
 ,
-				"obj-9::obj-6" : 				{
-					"parameter_longname" : "live.gain~[1]"
+				"obj-17::obj-6" : 				{
+					"parameter_longname" : "live.gain~[2]"
+				}
+,
+				"obj-18::obj-6" : 				{
+					"parameter_longname" : "live.gain~[3]"
+				}
+,
+				"obj-19::obj-6" : 				{
+					"parameter_longname" : "live.gain~[4]"
+				}
+,
+				"obj-20::obj-6" : 				{
+					"parameter_longname" : "live.gain~[5]"
+				}
+,
+				"obj-21::obj-6" : 				{
+					"parameter_longname" : "live.gain~[6]"
+				}
+,
+				"obj-22::obj-6" : 				{
+					"parameter_longname" : "live.gain~[7]"
+				}
+,
+				"obj-4::obj-6" : 				{
+					"parameter_modmode" : 0
 				}
 
 			}

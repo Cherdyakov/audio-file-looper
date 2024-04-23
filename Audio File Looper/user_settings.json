@@ -7,11 +7,11 @@
 				"data" : 				{
 					"fileplayer::live.gain~" : [ 0.0 ],
 					"fileplayer::pictctrl" : [ 1 ],
-					"fileplayer::umenu" : [ 0 ],
-					"fileplayer::umenu[1]" : [ 0 ],
+					"fileplayer::umenu" : [ 1 ],
+					"fileplayer::umenu[1]" : [ 2 ],
 					"fileplayer[1]::live.gain~" : [ 0.0 ],
 					"fileplayer[1]::pictctrl" : [ 1 ],
-					"fileplayer[1]::umenu" : [ 2 ],
+					"fileplayer[1]::umenu" : [ 1 ],
 					"fileplayer[1]::umenu[1]" : [ 2 ]
 				}
 

@@ -46,7 +46,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 693.0, 705.0, 82.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 418.0, 82.0, 20.0 ],
+					"presentation_rect" : [ 7.0, 410.0, 82.0, 20.0 ],
 					"text" : "Right Ch."
 				}
 
@@ -59,7 +59,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 563.0, 705.0, 68.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 13.0, 369.0, 68.0, 20.0 ],
+					"presentation_rect" : [ 7.0, 361.0, 68.0, 20.0 ],
 					"text" : "Left Ch."
 				}
 
@@ -88,7 +88,7 @@
 					"patching_rect" : [ 693.0, 673.0, 100.0, 22.0 ],
 					"prefix" : "Out",
 					"presentation" : 1,
-					"presentation_rect" : [ 12.5, 438.0, 100.0, 22.0 ],
+					"presentation_rect" : [ 7.0, 430.0, 100.0, 22.0 ],
 					"varname" : "umenu[1]"
 				}
 
@@ -129,7 +129,7 @@
 					"patching_rect" : [ 563.0, 673.0, 100.0, 22.0 ],
 					"prefix" : "Out",
 					"presentation" : 1,
-					"presentation_rect" : [ 12.5, 389.0, 100.0, 22.0 ],
+					"presentation_rect" : [ 7.0, 381.0, 100.0, 22.0 ],
 					"varname" : "umenu"
 				}
 
@@ -146,7 +146,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 428.0, 470.5, 60.0, 55.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 23.0, 228.0, 94.0, 95.0 ],
+					"presentation_rect" : [ 17.0, 220.0, 94.0, 95.0 ],
 					"varname" : "pictctrl"
 				}
 
@@ -197,7 +197,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 871.0, 700.0, 279.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 11.0, 12.0, 259.0, 39.0 ],
+					"presentation_rect" : [ 5.0, 4.0, 209.0, 39.0 ],
 					"text" : "File 1"
 				}
 
@@ -258,7 +258,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 835.0, 117.0, 91.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 201.0, 211.0, 60.0, 22.0 ],
+					"presentation_rect" : [ 149.0, 203.0, 60.0, 22.0 ],
 					"text" : "Clear File"
 				}
 
@@ -356,8 +356,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 622.0, 399.0, 309.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 3,
-					"presentation_rect" : [ 23.0, 100.0, 233.0, 48.0 ],
+					"presentation_linecount" : 4,
+					"presentation_rect" : [ 17.0, 92.0, 186.0, 62.0 ],
 					"text" : "C:/Users/Sean/Documents/GitHub/audio-file-looper/Audio File Looper/Audio Files/NPR_2019_Theme.wav"
 				}
 
@@ -365,14 +365,14 @@
 , 			{
 				"box" : 				{
 					"fontface" : 1,
-					"fontsize" : 14.0,
+					"fontsize" : 12.0,
 					"id" : "obj-40",
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 418.666666666666686, 31.0, 233.0, 23.0 ],
+					"patching_rect" : [ 418.666666666666686, 31.0, 202.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 15.0, 71.0, 250.0, 23.0 ],
+					"presentation_rect" : [ 9.0, 63.0, 200.0, 20.0 ],
 					"text" : "Drop audio file here (.wav, .aif)",
 					"underline" : 1
 				}
@@ -387,7 +387,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 409.666666666666686, 20.0, 254.0, 119.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 12.5, 63.0, 254.0, 176.0 ]
+					"presentation_rect" : [ 7.0, 55.0, 208.0, 176.0 ]
 				}
 
 			}
@@ -400,8 +400,8 @@
 					"outlettype" : [ "", "", "", "" ],
 					"patching_rect" : [ 61.5, 35.0, 135.0, 22.0 ],
 					"restore" : 					{
-						"live.gain~" : [ -6.0 ],
-						"pictctrl" : [ 1 ],
+						"live.gain~" : [ 0.0 ],
+						"pictctrl" : [ 0 ],
 						"umenu" : [ 1 ],
 						"umenu[1]" : [ 2 ]
 					}
@@ -514,7 +514,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 428.0, 596.0, 60.0, 143.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 138.0, 254.0, 77.0, 250.0 ],
+					"presentation_rect" : [ 132.0, 246.0, 77.0, 250.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ -70 ],
@@ -550,7 +550,7 @@
 , 			{
 				"box" : 				{
 					"angle" : 270.0,
-					"bgcolor" : [ 0.76078431372549, 0.76078431372549, 0.76078431372549, 1.0 ],
+					"bgcolor" : [ 0.745098039215686, 0.811764705882353, 0.815686274509804, 1.0 ],
 					"id" : "obj-2",
 					"maxclass" : "panel",
 					"mode" : 0,
@@ -558,7 +558,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 31.0, 83.0, 232.0, 371.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 1.0, 277.0, 521.0 ],
+					"presentation_rect" : [ 2.0, 1.0, 220.0, 510.0 ],
 					"proportion" : 0.5
 				}
 
