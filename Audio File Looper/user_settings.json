@@ -5,8 +5,8 @@
 			"1" : 			{
 				"id" : 1,
 				"data" : 				{
-					"fileplayer::live.gain~" : [ 6.0 ],
-					"fileplayer::number" : [ 6.0 ],
+					"fileplayer::live.gain~" : [ 0.0 ],
+					"fileplayer::number" : [ 0.0 ],
 					"fileplayer::toggle" : [ 0 ]
 				}
 

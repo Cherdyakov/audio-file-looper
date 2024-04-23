@@ -147,7 +147,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 276.0, 51.0, 271.0, 480.0 ],
+					"patching_rect" : [ 290.0, 101.0, 271.0, 480.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 276.0, 51.0, 272.0, 481.0 ],
 					"varname" : "fileplayer",
@@ -172,7 +172,7 @@
 						}
 ,
 						"classnamespace" : "box",
-						"rect" : [ 405.0, 281.0, 741.0, 712.0 ],
+						"rect" : [ 715.0, 532.0, 472.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -200,14 +200,27 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
+						"visible" : 1,
 						"boxes" : [ 							{
+								"box" : 								{
+									"id" : "obj-2",
+									"maxclass" : "newobj",
+									"numinlets" : 0,
+									"numoutlets" : 1,
+									"outlettype" : [ "" ],
+									"patching_rect" : [ 167.0, 47.0, 69.0, 22.0 ],
+									"text" : "r save_files"
+								}
+
+							}
+, 							{
 								"box" : 								{
 									"id" : "obj-42",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
 									"outlettype" : [ "bang", "int" ],
-									"patching_rect" : [ 91.0, 223.0, 87.0, 22.0 ],
+									"patching_rect" : [ 91.0, 248.0, 87.0, 22.0 ],
 									"text" : "t b 1"
 								}
 
@@ -218,8 +231,8 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 91.0, 260.0, 54.0, 22.0 ],
-									"text" : "s loaded"
+									"patching_rect" : [ 91.0, 313.0, 118.0, 22.0 ],
+									"text" : "s audio_files_loaded"
 								}
 
 							}
@@ -242,7 +255,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 167.0, 132.0, 81.0, 22.0 ],
+									"patching_rect" : [ 167.0, 152.0, 81.0, 22.0 ],
 									"text" : "prepend write"
 								}
 
@@ -255,7 +268,7 @@
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
 									"parameter_enable" : 0,
-									"patching_rect" : [ 235.0, 59.0, 24.0, 24.0 ]
+									"patching_rect" : [ 167.0, 83.0, 24.0, 24.0 ]
 								}
 
 							}
@@ -266,25 +279,13 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 167.0, 99.0, 73.0, 22.0 ],
+									"patching_rect" : [ 167.0, 123.0, 73.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"filename" : "savefile.js",
 										"parameter_enable" : 0
 									}
 ,
 									"text" : "js savefile.js"
-								}
-
-							}
-, 							{
-								"box" : 								{
-									"id" : "obj-19",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 167.0, 59.0, 63.0, 22.0 ],
-									"text" : "closebang"
 								}
 
 							}
@@ -319,7 +320,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 46.0, 186.0, 87.0, 22.0 ],
+									"patching_rect" : [ 46.0, 211.0, 87.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
 										"precision" : 6
@@ -336,7 +337,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 198.0, 261.0, 87.0, 34.0 ],
+									"patching_rect" : [ 198.0, 272.0, 87.0, 34.0 ],
 									"text" : "Turn on all DAC objects"
 								}
 
@@ -347,7 +348,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 159.0, 260.0, 37.0, 22.0 ],
+									"patching_rect" : [ 159.0, 285.0, 37.0, 22.0 ],
 									"text" : "s dac"
 								}
 
@@ -369,8 +370,8 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-20", 0 ],
-									"source" : [ "obj-19", 0 ]
+									"destination" : [ "obj-36", 0 ],
+									"source" : [ "obj-2", 0 ]
 								}
 
 							}
@@ -426,7 +427,7 @@
  ]
 					}
 ,
-					"patching_rect" : [ 41.0, 21.0, 89.0, 22.0 ],
+					"patching_rect" : [ 41.0, 21.0, 113.0, 22.0 ],
 					"saved_object_attributes" : 					{
 						"description" : "",
 						"digest" : "",
@@ -434,7 +435,7 @@
 						"tags" : ""
 					}
 ,
-					"text" : "patcher startup"
+					"text" : "p coll_management"
 				}
 
 			}
@@ -515,6 +516,13 @@
 				"bootpath" : "~/Documents/GitHub/audio-file-looper/Audio File Looper",
 				"patcherrelativepath" : ".",
 				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "user_settings.json",
+				"bootpath" : "~/Documents/GitHub/audio-file-looper/Audio File Looper",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
 				"implicit" : 1
 			}
  ],
