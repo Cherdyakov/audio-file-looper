@@ -147,7 +147,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 289.0, 93.0, 283.0, 528.0 ],
+					"patching_rect" : [ 289.0, 93.0, 281.0, 525.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 276.0, 51.0, 272.0, 481.0 ],
 					"varname" : "fileplayer",
@@ -489,6 +489,13 @@
 					"index" : 0,
 					"name" : "",
 					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"parameter_overrides" : 			{
+				"obj-4::obj-6" : 				{
+					"parameter_modmode" : 0
 				}
 
 			}
