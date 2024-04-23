@@ -147,7 +147,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 289.0, 93.0, 285.0, 559.0 ],
+					"patching_rect" : [ 289.0, 93.0, 283.0, 528.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 276.0, 51.0, 272.0, 481.0 ],
 					"varname" : "fileplayer",
@@ -200,7 +200,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-2",
@@ -509,6 +508,13 @@
 				"bootpath" : "~/Documents/GitHub/audio-file-looper/Audio File Looper",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "play_pause_tilemap.png",
+				"bootpath" : "~/Documents/GitHub/audio-file-looper/Audio File Looper/Resources",
+				"patcherrelativepath" : "./Resources",
+				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
