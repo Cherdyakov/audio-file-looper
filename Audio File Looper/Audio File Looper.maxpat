@@ -40,6 +40,30 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"args" : [ 2, 3, 4 ],
+					"bgmode" : 0,
+					"border" : 0,
+					"clickthrough" : 0,
+					"enablehscroll" : 0,
+					"enablevscroll" : 0,
+					"id" : "obj-9",
+					"lockeddragscroll" : 0,
+					"lockedsize" : 0,
+					"maxclass" : "bpatcher",
+					"name" : "fileplayer.maxpat",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"offset" : [ 0.0, 0.0 ],
+					"patching_rect" : [ 586.0, 93.0, 281.0, 525.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 288.0, 66.0, 283.0, 526.0 ],
+					"varname" : "fileplayer[1]",
+					"viewvisibility" : 1
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -149,7 +173,7 @@
 					"offset" : [ 0.0, 0.0 ],
 					"patching_rect" : [ 289.0, 93.0, 281.0, 525.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 276.0, 51.0, 272.0, 481.0 ],
+					"presentation_rect" : [ 273.0, 51.0, 283.0, 526.0 ],
 					"varname" : "fileplayer",
 					"viewvisibility" : 1
 				}
@@ -484,6 +508,7 @@
  ],
 		"parameters" : 		{
 			"obj-4::obj-6" : [ "live.gain~", "live.gain~", 0 ],
+			"obj-9::obj-6" : [ "live.gain~[1]", "live.gain~", 0 ],
 			"parameterbanks" : 			{
 				"0" : 				{
 					"index" : 0,
@@ -496,6 +521,10 @@
 			"parameter_overrides" : 			{
 				"obj-4::obj-6" : 				{
 					"parameter_modmode" : 0
+				}
+,
+				"obj-9::obj-6" : 				{
+					"parameter_longname" : "live.gain~[1]"
 				}
 
 			}
