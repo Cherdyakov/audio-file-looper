@@ -147,7 +147,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 290.0, 101.0, 271.0, 480.0 ],
+					"patching_rect" : [ 289.0, 93.0, 285.0, 559.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 276.0, 51.0, 272.0, 481.0 ],
 					"varname" : "fileplayer",
