@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 382.0, 130.0, 965.0, 900.0 ],
+		"rect" : [ 644.0, 281.0, 965.0, 1020.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -46,7 +46,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 693.0, 705.0, 82.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 410.0, 82.0, 20.0 ],
+					"presentation_rect" : [ 15.0, 398.0, 82.0, 20.0 ],
 					"text" : "Right Ch."
 				}
 
@@ -59,7 +59,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 563.0, 705.0, 68.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 361.0, 68.0, 20.0 ],
+					"presentation_rect" : [ 15.0, 349.0, 68.0, 20.0 ],
 					"text" : "Left Ch."
 				}
 
@@ -68,9 +68,9 @@
 				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "int" ],
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 693.0, 640.0, 107.0, 22.0 ],
 					"text" : "adstatus output #3"
 				}
@@ -88,7 +88,7 @@
 					"patching_rect" : [ 693.0, 673.0, 100.0, 22.0 ],
 					"prefix" : "Out",
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 430.0, 100.0, 22.0 ],
+					"presentation_rect" : [ 15.0, 418.0, 100.0, 22.0 ],
 					"varname" : "umenu[1]"
 				}
 
@@ -109,9 +109,9 @@
 				"box" : 				{
 					"id" : "obj-29",
 					"maxclass" : "newobj",
-					"numinlets" : 2,
-					"numoutlets" : 2,
-					"outlettype" : [ "", "int" ],
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 563.0, 640.0, 107.0, 22.0 ],
 					"text" : "adstatus output #2"
 				}
@@ -129,7 +129,7 @@
 					"patching_rect" : [ 563.0, 673.0, 100.0, 22.0 ],
 					"prefix" : "Out",
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 381.0, 100.0, 22.0 ],
+					"presentation_rect" : [ 15.0, 370.0, 100.0, 22.0 ],
 					"varname" : "umenu"
 				}
 
@@ -139,14 +139,14 @@
 					"id" : "obj-28",
 					"maxclass" : "pictctrl",
 					"mode" : 1,
-					"name" : "play_pause_tilemap.png",
+					"name" : "play-pause-button.png",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "int" ],
 					"parameter_enable" : 0,
 					"patching_rect" : [ 428.0, 470.5, 60.0, 55.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 17.0, 220.0, 94.0, 95.0 ],
+					"presentation_rect" : [ 15.0, 220.0, 94.0, 95.0 ],
 					"varname" : "pictctrl"
 				}
 
@@ -197,8 +197,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 871.0, 700.0, 279.0, 39.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 5.0, 4.0, 209.0, 39.0 ],
-					"text" : "File 1"
+					"presentation_rect" : [ 3.0, 4.0, 137.0, 39.0 ],
+					"text" : "File 0"
 				}
 
 			}
@@ -243,7 +243,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 5,
-					"outlettype" : [ "bang", "int", "bang", "int", "bang" ],
+					"outlettype" : [ "bang", "", "bang", "int", "bang" ],
 					"patching_rect" : [ 835.0, 156.0, 329.5, 22.0 ],
 					"text" : "t b #1 b 0 b"
 				}
@@ -258,7 +258,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 835.0, 117.0, 91.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 149.0, 203.0, 60.0, 22.0 ],
+					"presentation_rect" : [ 134.0, 203.0, 60.0, 22.0 ],
 					"text" : "Clear File"
 				}
 
@@ -281,7 +281,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 4,
-					"outlettype" : [ "bang", "", "", "int" ],
+					"outlettype" : [ "bang", "", "", "" ],
 					"patching_rect" : [ 409.666666666666686, 156.0, 74.0, 22.0 ],
 					"text" : "t b s s #1"
 				}
@@ -316,7 +316,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 2,
-					"outlettype" : [ "int", "bang" ],
+					"outlettype" : [ "", "bang" ],
 					"patching_rect" : [ 690.0, 193.0, 39.0, 22.0 ],
 					"text" : "t #1 b"
 				}
@@ -356,8 +356,8 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 622.0, 399.0, 309.0, 34.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 4,
-					"presentation_rect" : [ 17.0, 92.0, 186.0, 62.0 ],
+					"presentation_linecount" : 5,
+					"presentation_rect" : [ 15.0, 92.0, 163.0, 75.0 ],
 					"text" : "C:/Users/Sean/Documents/GitHub/audio-file-looper/Audio File Looper/Audio Files/NPR_2019_Theme.wav"
 				}
 
@@ -372,7 +372,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 418.666666666666686, 31.0, 202.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 9.0, 63.0, 200.0, 20.0 ],
+					"presentation_rect" : [ 7.0, 63.0, 185.0, 20.0 ],
 					"text" : "Drop audio file here (.wav, .aif)",
 					"underline" : 1
 				}
@@ -387,7 +387,7 @@
 					"outlettype" : [ "", "" ],
 					"patching_rect" : [ 409.666666666666686, 20.0, 254.0, 119.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 7.0, 55.0, 208.0, 176.0 ]
+					"presentation_rect" : [ 5.0, 55.0, 195.0, 176.0 ]
 				}
 
 			}
@@ -471,7 +471,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 384.0, 717.0, 35.0, 22.0 ],
+					"patching_rect" : [ 384.0, 827.0, 35.0, 22.0 ],
 					"text" : "r dac"
 				}
 
@@ -482,7 +482,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 0,
-					"patching_rect" : [ 433.0, 837.0, 68.0, 22.0 ],
+					"patching_rect" : [ 428.0, 879.0, 68.0, 22.0 ],
 					"text" : "dac~ #2 #3"
 				}
 
@@ -514,7 +514,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 428.0, 596.0, 60.0, 143.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 132.0, 246.0, 77.0, 250.0 ],
+					"presentation_rect" : [ 114.0, 246.0, 77.0, 250.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_initial" : [ -70 ],
@@ -558,7 +558,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 31.0, 83.0, 232.0, 371.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 2.0, 1.0, 220.0, 510.0 ],
+					"presentation_rect" : [ 1.0, 1.0, 205.0, 510.0 ],
 					"proportion" : 0.5
 				}
 
@@ -882,7 +882,37 @@
 				}
 
 			}
- ]
+ ],
+		"parameters" : 		{
+			"obj-6" : [ "live.gain~", "live.gain~", 0 ],
+			"parameterbanks" : 			{
+				"0" : 				{
+					"index" : 0,
+					"name" : "",
+					"parameters" : [ "-", "-", "-", "-", "-", "-", "-", "-" ]
+				}
+
+			}
+,
+			"inherited_shortname" : 1
+		}
+,
+		"dependency_cache" : [ 			{
+				"name" : "audio_files.txt",
+				"bootpath" : "~/Documents/GitHub/audio-file-looper/Audio File Looper",
+				"patcherrelativepath" : ".",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "play-pause-button.png",
+				"bootpath" : "~/Documents/GitHub/audio-file-looper/Audio File Looper/Resources",
+				"patcherrelativepath" : "./Resources",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+ ],
+		"autosave" : 0
 	}
 
 }

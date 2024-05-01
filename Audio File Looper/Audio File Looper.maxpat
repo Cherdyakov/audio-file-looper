@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 34.0, 77.0, 1452.0, 969.0 ],
+		"rect" : [ 175.0, 121.0, 1765.0, 1115.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,6 +40,53 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-23",
+					"linecount" : 5,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 333.0, 83.0, 150.0, 75.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 152.0, 87.0, 329.0, 34.0 ],
+					"text" : "Seamless audio file looping of up to 8 stereo files.\nFile paths are saved automatically until cleared."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 1,
+					"fontsize" : 36.0,
+					"id" : "obj-14",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 333.0, 28.0, 426.0, 48.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 152.0, 37.0, 141.0, 48.0 ],
+					"text" : "Looper"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontface" : 2,
+					"fontsize" : 10.0,
+					"id" : "obj-12",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 145.0, 68.5, 107.0, 29.0 ],
+					"presentation" : 1,
+					"presentation_linecount" : 2,
+					"presentation_rect" : [ 11.0, 676.0, 107.0, 29.0 ],
+					"text" : "Save output mapping and gain settings."
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"args" : [ 8, 15, 16 ],
 					"bgmode" : 0,
 					"border" : 0,
@@ -54,9 +101,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 1666.0, 108.0, 281.0, 525.0 ],
+					"patching_rect" : [ 1537.0, 262.0, 209.0, 516.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1608.0, 17.0, 225.0, 515.0 ],
+					"presentation_rect" : [ 1474.0, 129.0, 225.0, 515.0 ],
 					"varname" : "fileplayer[7]",
 					"viewvisibility" : 1
 				}
@@ -78,9 +125,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 1439.0, 108.0, 281.0, 525.0 ],
+					"patching_rect" : [ 1317.0, 262.0, 211.0, 516.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1381.0, 17.0, 225.0, 515.0 ],
+					"presentation_rect" : [ 1265.0, 129.0, 225.0, 515.0 ],
 					"varname" : "fileplayer[6]",
 					"viewvisibility" : 1
 				}
@@ -102,9 +149,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 1212.0, 108.0, 281.0, 525.0 ],
+					"patching_rect" : [ 1100.0, 262.0, 209.0, 516.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1154.0, 17.0, 225.0, 515.0 ],
+					"presentation_rect" : [ 1057.0, 129.0, 225.0, 515.0 ],
 					"varname" : "fileplayer[5]",
 					"viewvisibility" : 1
 				}
@@ -126,9 +173,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 985.0, 108.0, 281.0, 525.0 ],
+					"patching_rect" : [ 882.0, 262.0, 209.0, 516.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 927.0, 17.0, 225.0, 515.0 ],
+					"presentation_rect" : [ 848.0, 129.0, 225.0, 515.0 ],
 					"varname" : "fileplayer[4]",
 					"viewvisibility" : 1
 				}
@@ -150,9 +197,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 758.0, 108.0, 281.0, 525.0 ],
+					"patching_rect" : [ 670.0, 262.0, 203.0, 516.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 700.0, 17.0, 225.0, 515.0 ],
+					"presentation_rect" : [ 639.0, 129.0, 225.0, 515.0 ],
 					"varname" : "fileplayer[3]",
 					"viewvisibility" : 1
 				}
@@ -174,9 +221,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 531.0, 108.0, 281.0, 525.0 ],
+					"patching_rect" : [ 454.0, 262.0, 208.0, 516.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 473.0, 17.0, 225.0, 515.0 ],
+					"presentation_rect" : [ 430.0, 129.0, 225.0, 515.0 ],
 					"varname" : "fileplayer[2]",
 					"viewvisibility" : 1
 				}
@@ -198,9 +245,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 304.0, 108.0, 281.0, 525.0 ],
+					"patching_rect" : [ 235.0, 262.0, 210.0, 516.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 246.0, 17.0, 225.0, 515.0 ],
+					"presentation_rect" : [ 222.0, 129.0, 225.0, 515.0 ],
 					"varname" : "fileplayer[1]",
 					"viewvisibility" : 1
 				}
@@ -296,7 +343,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 41.0, 72.0, 83.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 73.0, 587.0, 83.0, 22.0 ],
+					"presentation_rect" : [ 13.0, 652.0, 83.0, 22.0 ],
 					"text" : "Save Settings"
 				}
 
@@ -317,9 +364,9 @@
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
-					"patching_rect" : [ 289.0, 93.0, 281.0, 525.0 ],
+					"patching_rect" : [ 18.0, 262.0, 209.0, 516.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 19.0, 17.0, 225.0, 515.0 ],
+					"presentation_rect" : [ 13.0, 129.0, 225.0, 515.0 ],
 					"varname" : "fileplayer",
 					"viewvisibility" : 1
 				}
@@ -608,6 +655,22 @@
 				}
 
 			}
+, 			{
+				"box" : 				{
+					"autofit" : 1,
+					"forceaspect" : 1,
+					"id" : "obj-10",
+					"maxclass" : "fpic",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "jit_matrix" ],
+					"patching_rect" : [ 521.0, 50.0, 100.0, 102.1484375 ],
+					"pic" : "looper.png",
+					"presentation" : 1,
+					"presentation_rect" : [ 13.0, 10.0, 135.0, 137.900390625 ]
+				}
+
+			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -723,7 +786,14 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "play_pause_tilemap.png",
+				"name" : "looper.png",
+				"bootpath" : "~/Documents/GitHub/audio-file-looper/Audio File Looper/Resources",
+				"patcherrelativepath" : "./Resources",
+				"type" : "PNG",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "play-pause-button.png",
 				"bootpath" : "~/Documents/GitHub/audio-file-looper/Audio File Looper/Resources",
 				"patcherrelativepath" : "./Resources",
 				"type" : "PNG",
