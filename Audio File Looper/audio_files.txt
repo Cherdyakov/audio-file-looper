@@ -1,2 +1,0 @@
-1, "C:/Users/Sean/Documents/GitHub/audio-file-looper/Audio File Looper/Audio Files/NPR_2019_Theme.wav";
-2, "C:/Users/Sean/Documents/GitHub/audio-file-looper/Audio File Looper/Audio Files/anw3352_003_crunchtime.wav";
