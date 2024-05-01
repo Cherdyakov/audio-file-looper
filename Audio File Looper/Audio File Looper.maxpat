@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 211.0, 305.0, 1192.0, 734.0 ],
+		"rect" : [ 211.0, 305.0, 1699.0, 734.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -417,7 +417,6 @@
 						"style" : "",
 						"subpatcher_template" : "",
 						"assistshowspatchername" : 0,
-						"visible" : 1,
 						"boxes" : [ 							{
 								"box" : 								{
 									"id" : "obj-23",
@@ -446,12 +445,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-27",
-									"linecount" : 6,
+									"linecount" : 3,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 203.0, 451.0, 125.0, 91.0 ],
+									"patching_rect" : [ 203.0, 451.0, 237.0, 50.0 ],
 									"text" : "write \"C:/Users/Sean/Documents/GitHub/audio-file-looper/Audio File Looper/audio_files.txt\""
 								}
 
@@ -523,8 +522,8 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 573.0, 239.0, 143.0, 36.0 ],
-									"text" : ";\r\nmax getapppath #0_path"
+									"patching_rect" : [ 573.0, 239.0, 151.0, 36.0 ],
+									"text" : ";\nmax sendapppath #0_path"
 								}
 
 							}
@@ -655,9 +654,9 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 2,
-									"outlettype" : [ "bang", "int" ],
-									"patching_rect" : [ 127.0, 628.0, 87.0, 22.0 ],
-									"text" : "t b 1"
+									"outlettype" : [ "", "int" ],
+									"patching_rect" : [ 82.0, 552.0, 31.0, 22.0 ],
+									"text" : "t s 1"
 								}
 
 							}
@@ -716,12 +715,12 @@
 , 							{
 								"box" : 								{
 									"id" : "obj-12",
-									"linecount" : 7,
+									"linecount" : 4,
 									"maxclass" : "message",
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 82.0, 341.0, 118.0, 105.0 ],
+									"patching_rect" : [ 82.0, 341.0, 162.0, 64.0 ],
 									"text" : "read \"C:/Users/Sean/Documents/GitHub/audio-file-looper/Audio File Looper/audio_files.txt\""
 								}
 
@@ -733,7 +732,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 4,
 									"outlettype" : [ "", "", "", "" ],
-									"patching_rect" : [ 82.0, 591.0, 87.0, 22.0 ],
+									"patching_rect" : [ 82.0, 640.0, 87.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
 										"precision" : 6
@@ -750,7 +749,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 234.0, 652.0, 87.0, 34.0 ],
+									"patching_rect" : [ 149.0, 590.0, 87.0, 34.0 ],
 									"text" : "Turn on all DAC objects"
 								}
 
@@ -761,7 +760,7 @@
 									"maxclass" : "newobj",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 195.0, 665.0, 37.0, 22.0 ],
+									"patching_rect" : [ 107.0, 602.0, 37.0, 22.0 ],
 									"text" : "s dac"
 								}
 
@@ -783,7 +782,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
+									"destination" : [ "obj-42", 0 ],
 									"source" : [ "obj-12", 0 ]
 								}
 
@@ -878,14 +877,14 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-3", 0 ],
+									"destination" : [ "obj-42", 0 ],
 									"source" : [ "obj-27", 0 ]
 								}
 
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-42", 0 ],
+									"destination" : [ "obj-41", 0 ],
 									"source" : [ "obj-3", 2 ]
 								}
 
@@ -913,7 +912,7 @@
 							}
 , 							{
 								"patchline" : 								{
-									"destination" : [ "obj-41", 0 ],
+									"destination" : [ "obj-3", 0 ],
 									"source" : [ "obj-42", 0 ]
 								}
 

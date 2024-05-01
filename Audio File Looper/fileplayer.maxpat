@@ -350,15 +350,12 @@
 				"box" : 				{
 					"fontface" : 2,
 					"id" : "obj-18",
-					"linecount" : 2,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 622.0, 399.0, 309.0, 34.0 ],
+					"patching_rect" : [ 622.0, 399.0, 309.0, 20.0 ],
 					"presentation" : 1,
-					"presentation_linecount" : 5,
-					"presentation_rect" : [ 15.0, 92.0, 163.0, 75.0 ],
-					"text" : "C:/Users/Sean/Documents/GitHub/audio-file-looper/Audio File Looper/Audio Files/NPR_2019_Theme.wav"
+					"presentation_rect" : [ 15.0, 92.0, 163.0, 20.0 ]
 				}
 
 			}
@@ -898,13 +895,6 @@
 		}
 ,
 		"dependency_cache" : [ 			{
-				"name" : "audio_files.txt",
-				"bootpath" : "~/Documents/GitHub/audio-file-looper/Audio File Looper",
-				"patcherrelativepath" : ".",
-				"type" : "TEXT",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "play-pause-button.png",
 				"bootpath" : "~/Documents/GitHub/audio-file-looper/Audio File Looper/Resources",
 				"patcherrelativepath" : "./Resources",
